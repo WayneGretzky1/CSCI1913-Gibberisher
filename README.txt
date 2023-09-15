@@ -1,14 +1,10 @@
 
-Date: 02 Apr 2023
-Name: William Nichols, Brock Bye, Jake Borham
-Student ID number: 5667529 , 5583303 , 5686531
-Course number: EE-2361
-Term: Spring 2023
+Date: 14 Dec2022
+Name: Brock Bye
+Course number: CSCI-1913
+Term: Fall 2022
 Lab/assignment number: Final Project
 
-This is the complete file set for the ARAGOG four legged spider drone. This design was inspired by REGISHSU's design for the Arduino.
-
-REGISHSU design: https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/
 
 This program runs on two PIC24FJ64GA002 microcontrollers, and requires minimal manipulation in the code to get working; more specificially, it requires a #define MASTER
     to control the left PIC (ie, left legs), and if MASTER is not defined, it runs as a SLAVE, and controls the right legs instead.
