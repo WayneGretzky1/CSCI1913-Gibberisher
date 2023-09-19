@@ -6,18 +6,18 @@ Term: Fall 2022
 Lab/assignment number: Final Project
 
 
-This program runs on two PIC24FJ64GA002 microcontrollers, and requires minimal manipulation in the code to get working; more specificially, it requires a #define MASTER
-    to control the left PIC (ie, left legs), and if MASTER is not defined, it runs as a SLAVE, and controls the right legs instead.
-    
-This file is operational when compiled using MPLAB X IDE Version 5.50. It uses a XC16 V02 compliler. 
+This program runs on the files listed below, included as well are tester files. 
+
+Gibberisher class's goal is to generate random, pronounceable, English words. It takes the English dictionary, and summarizes it into a tree structure of 3-letter word segments, associated with a Charbag (abstract data type). In each charbag is a frequency distribution for each letter of the alphabet. After modeling the tree structure, we now have a reusable way to represent a language. Gibberisher then generates words, accessing the model's child class
+
 
 Files required for operation:
-~ Project_Aragog_main.c
-~ Project_Aragog_master.c
-~ Project_Aragog_master.h
-~ Project_Aragog_master_defines.h
-~ Project_Aragog_slave.c
-~ Project_Aragog_slave.h
-~ Project_Aragog_slave_defines.h
-~ Project_Aragog_general_setup.c
-~ Project_Aragog_general_setup.h
+~ CharBag.java
+~ CharBagTest.java
+~ Dictionary.java (or your own language/dictionary)
+~ Gibberisher.java
+~ GibberisherMain.java
+~ LetterSample.java
+~ Trie.java
+~ TrieNode.java
+
